@@ -1,12 +1,12 @@
 {
   "name": "seven-restobar---night-experience",
   "private": true,
-  "version": "0.0.0",
-  "homepage": "https://CholoGerman.github.io/seven-restobar",
+  "version": "1.0.0",
   "type": "module",
+  "homepage": "https://CholoGerman.github.io/seven-restobar",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
@@ -23,7 +23,7 @@
     "autoprefixer": "^10.4.24",
     "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.19",
+    "tailwindcss": "^4.2.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   }

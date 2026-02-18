@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { EVENTS } from '../constants';
+import { EVENTS } from '../../constants';
 
 const EventsSection: React.FC = () => {
   return (

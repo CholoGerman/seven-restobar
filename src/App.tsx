@@ -7,7 +7,7 @@ import ConceptSection from './components/ConceptSection';
 import PrivateEventForm from './components/PrivateEventForm';
 import Gallery from './components/Gallery';
 import Footer from './components/Footer';
-import { generateNightHype } from './services/gemini';
+import { generateNightHype } from '../services/gemini';
 
 const App: React.FC = () => {
   const [aiHype, setAiHype] = useState<string>('');
